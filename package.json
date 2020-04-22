@@ -1,0 +1,27 @@
+{
+  "name": "geo-pansim-rust",
+  "version": "0.0.1",
+  "description": "A agent based Geo-Spacial pandemic simulation using rust and wasm",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "tst"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/greenpdx/geo-pansim-rust.git"
+  },
+  "keywords": [
+    "CV19",
+    "agent",
+    "pandemic",
+    "simulation",
+    "rust",
+    "wasm"
+  ],
+  "author": "Shaun Savage",
+  "license": "LGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/greenpdx/geo-pansim-rust/issues"
+  },
+  "homepage": "https://github.com/greenpdx/geo-pansim-rust#readme"
+}
