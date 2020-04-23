@@ -6,6 +6,9 @@ mod config;
 mod global;
 mod logging;
 
+mod socket;
+mod addrinfo;
+
 fn main() {
     let sys = actix::System::new("agsps");
     let loaded = match config::load_config() {
