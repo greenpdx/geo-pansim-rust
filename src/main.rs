@@ -4,6 +4,7 @@ use actix::prelude::*;
 
 mod config;
 mod global;
+mod logging;
 
 fn main() {
     let sys = actix::System::new("agsps");

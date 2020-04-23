@@ -1,6 +1,7 @@
 use actix::prelude::*;
 
 use crate::config::Config;
+use crate::logging;
 
 pub struct Global {
     //cfg: Rc<Config>,
@@ -20,5 +21,6 @@ impl Actor for Global {
 
 /// Start master process
 pub fn start(cfg: Config) -> bool {
+    logging::init_logging(&cfg.logging);
     false // init logging
 }
